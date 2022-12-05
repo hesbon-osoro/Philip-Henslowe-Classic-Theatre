@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: Champagne;
+  src: url("cac_champagne.woff") format("woff"),
+    url("cac_champagne.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Grunge;
+  src: url("1942.woff") format("woff"), url("1942.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Dobkin;
+  src: url("DobkinPlain.woff") format("woff"),
+    url("DobkinPlain.ttf") format("truetype");
+}
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Typographic Style Sheet
+   Author: Hesbon Osoro
+   Date: 12/6/22    
+   
+   Filename: ph_styles.css
+
+*/
+
+/* Structural Styles */
+
+html {
+  background-color: hsl(91, 8%, 56%);
+}
+
+body {
+  background-color: hsl(58, 31%, 84%);
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+
+header {
+  background-color: black;
+}
+
+p {
+  margin: 0;
+  padding: 5px 25px;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+address {
+  font-style: normal;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Navigation Styles */
+
+nav a:link,
+nav a:visited,
+a:link nav a:visited,
+nav:visited a:link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+}
+
+nav a:link,
+nav a:visited,
+a:link nav a:visited,
+nav:visited a:link {
+  background-color: hsla(0, 0%, 42%, 0.4);
+}
+
+nav a:hover,
+nav a:active,
+a:hover nav a:active,
+nav:active a:hover {
+  color: hsla(0, 0%, 100%, 0.7);
+  background-color: hsla(0, 0%, 42%, 0.7);
+}
+
+/* Section Styles */
+
+section.playbill h1 {
+  font-size: 3em;
+  font-weight: normal;
+  margin: 0;
+  padding: 20px 0 10px 20px;
+}
+
+#play1 {
+  background-color: hsl(240, 100%, 88%);
+}
+
+#play1 h1 {
+  font-family: Champagne, cursive;
+}
+
+#play2 {
+  background-color: hsl(25, 88%, 73%);
+}
+
+#play2 h1 {
+  font-family: Grunge, "Times New Roman", Times, serif;
+}
+
+#play3 {
+  background-color: hsl(0, 100%, 75%);
+}
+
+#play3 h1 {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+#play4 {
+  background-color: hsl(296, 86%, 86%);
+}
+
+#play4 h1 {
+  font-family: Dobkin, cursive;
+}
+
+/* Definition List Styles */
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.4);
+}
+
+dd {
+  font-size: 1.3em;
+  margin-left: 0;
+  margin-bottom: 10px;
+}

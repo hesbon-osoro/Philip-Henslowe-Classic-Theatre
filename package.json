@@ -1,0 +1,14 @@
+{
+  "name": "philip-henslowe-classic-theatre",
+  "description": "T2 Case Problem 1: Philip Henslowe Classic Theatre",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "author": "Hesbon Osoro <hesbonosoro1@gmail.com>",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^2.8.0"
+  }
+}
